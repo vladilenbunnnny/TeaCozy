@@ -1,0 +1,82 @@
+/*
+##########
+       Universal Rules
+##########
+*/
+
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+/*
+##########
+       Header
+##########
+*/
+
+header nav {
+  text-decoration: underline;
+}
+
+
+/*
+##########
+       Content
+##########
+*/
+
+/*
+######
+  Mission Part
+######
+*/
+
+#mission {
+  background-image: url(../images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+}
+
+.text {
+  background-color: black;
+  width: inherit;
+}
+
+
+/*
+######
+  Store Part
+######
+*/
+
+#store {
+  display: block;
+  width: 1000px;
+}
+
+.item img{
+  height: 200px;
+  width: 300px;
+}
+
+/*
+######
+  Locations Part
+######
+*/
+
+#locations {
+  background-image: url(../images/img-locations-background.jpg);
+}
