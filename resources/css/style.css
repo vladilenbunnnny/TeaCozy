@@ -11,6 +11,7 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin: 0;
 }
 
 .flex-container {
@@ -25,9 +26,31 @@ body {
        Header
 ##########
 */
+ header {
+   height: 69px;
+   position: fixed;
+   border-bottom: 1px solid seashell;
+   background-color: inherit;
+   z-index: 1;
+   width: 100%;
+   justify-content: space-between;
+ }
 
-header nav {
+ header img {
+   height: 50px;
+   padding-left: 10px;
+ }
+
+nav {
   text-decoration: underline;
+  display: inline-flex;
+  width: 380px;
+  justify-content: space-between;
+  padding-right: 40px;
+}
+
+nav a {
+  color: seashell;
 }
 
 
@@ -37,6 +60,11 @@ header nav {
 ##########
 */
 
+.content {
+  padding-top: 69px;
+  margin: auto;
+  width: 1200px;
+}
 /*
 ######
   Mission Part
