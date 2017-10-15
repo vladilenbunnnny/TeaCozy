@@ -18,6 +18,12 @@ body {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+h2 {
+  display: block;
 }
 
 
@@ -33,7 +39,7 @@ body {
    background-color: inherit;
    z-index: 1;
    width: 100%;
-   justify-content: space-between;
+   justify-content: space-between !important;
  }
 
  header img {
@@ -92,11 +98,22 @@ nav a {
 #store {
   display: block;
   width: 1000px;
+  margin: 70px auto;
+}
+
+
+.item {
+  display: block;
+  width: 300px;
+  margin: 10px;
+
 }
 
 .item img{
+  display: block;
   height: 200px;
   width: 300px;
+  margin: 10px;
 }
 
 /*
@@ -106,5 +123,50 @@ nav a {
 */
 
 #locations {
+  display: block;
+  height: 500px;
   background-image: url(../images/img-locations-background.jpg);
+  padding-top: 70px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  opacity: 1;
+  margin: 0px 20px;
+  width: 300px;
+  height: 300px;
+}
+
+#locations .flex-container {
+  margin: auto;
+  padding-top: 5px;
+}
+
+#locations h2 {
+  margin: 0;
+  padding-bottom: 10px;
+  padding-top: 47px;
+
+}
+
+/*
+##########
+       Contacts Part
+##########
+*/
+
+#contact {
+  text-align: center;
+}
+/*
+##########
+       Footer
+##########
+*/
+
+footer {
+  text-align: left;
+  padding-left: 20px;
 }
